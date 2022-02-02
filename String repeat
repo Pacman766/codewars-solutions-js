@@ -1,0 +1,12 @@
+8 kyu
+String repeat
+
+https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
+
+repeatStr(6, "I") // "IIIIII"
+repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
+
+
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
